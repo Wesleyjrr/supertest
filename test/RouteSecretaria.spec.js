@@ -8,7 +8,6 @@ require('dotenv').config();
 describe("Teste de Integração - Secretaria Frotas", () => {
     const BASE_URL = process.env.API_BASE_URL;
     const API_USER_ADMIN = process.env.API_USER_ADMIN;
-    const API_USER_MOTORISTA = process.env.API_USER_MOTORISTA;
     const API_PASS = process.env.API_PASS;
     const req = request(BASE_URL);
     let token;
